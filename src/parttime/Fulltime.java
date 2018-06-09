@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parttime;
+package payroll;
 
-
-public class FixedBasedPartTime extends PartTime {
- int fixedammount;
- int calcEarnings()
- {
-    return(rate*hoursWorked)+fixedammount;
- }
+/**
+ *
+ * @author macstudent
+ */
+public class fulltime {
+    
 }
-

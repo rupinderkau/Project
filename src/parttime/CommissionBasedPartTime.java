@@ -6,8 +6,12 @@
 package parttime;
 
 
-public class CommissionBasedPartTime {
-  public int CommissionPerc calcEarnings {
-    return(rate* hoursWorked) + commission
-}  
+public class CommissionBasedPartTime extends PartTime {
+  int CommissionPerc;
+  CommissionBasedPartTime cb=new CommissionBasedPartTime();
+   int calcEarnings()
+   {
+       
+    return(rate*hoursWorked)+CommissionPerc;
+}
 }

@@ -6,11 +6,15 @@
 package parttime;
 
 
-public class PartTime {
+public abstract class PartTime {
 
-    int RateHoursWorked;
-    public static void main(String[] args) {
-        
+     int rate;
+     int hoursWorked;
+     {
+     System.out.println("this is display method");
+     
+     
     }
-    
 }
+    
+
